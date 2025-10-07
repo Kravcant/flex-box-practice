@@ -2,8 +2,27 @@
 TODO: Add styles to match the layout in the image.
 Note: you should only need to use flexbox properties and margin/padding to create the layout.
 */
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
 
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
 
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    align-items: center;
+}
+
+img {
+    padding: 0 50px;
+}
 
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
